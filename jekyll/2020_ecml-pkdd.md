@@ -100,13 +100,13 @@ predictions.
 To reference this tutorial please use:
 ```bibtex
 @misc{sokol2020what,
-  author       = {Sokol, Kacper and
-                  Hepburn, Alexander and
-                  Santos-Rodriguez, Raul and
-                  Flach, Peter},
-  title        = {{W}hat and How of Machine Learning Transparency:
-                  {B}uilding Bespoke Explainability Tools with
-                  Interoperable Algorithmic Components},
+  author       = { Sokol, Kacper and
+                   Hepburn, Alexander and
+                   Santos-Rodriguez, Raul and
+                   Flach, Peter },
+  title        = { {W}hat and How of Machine Learning Transparency:
+                   {B}uilding Bespoke Explainability Tools with
+                   Interoperable Algorithmic Components },
   month        = sep,
   year         = 2020
 }
