@@ -118,7 +118,7 @@ components to configure robust explainers with well-known properties and
 failure modes based on first-hand observations and a collection of
 quantitative evaluation metrics and validation techniques.
 
-![Modularity of surrogate explainers, listing components specific to tabular data.](modular_surrogates.svg){width=50%}
+![Modularity of surrogate explainers, listing components specific to tabular data.](modular_surrogates.pdf){width=65%}
 
 <!-- instructional design -->
 The introduction to algorithmic explainability; the theoretical overview of
