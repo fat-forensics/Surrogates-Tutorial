@@ -17,6 +17,7 @@ authors:
     orcid: 0000-0002-9869-5896
     affiliation: 1
   - name: Alexander Hepburn
+    orcid: 0000-0002-2674-1478
     affiliation: 2
   - name: Raul Santos-Rodriguez
     orcid: 0000-0001-9576-3905
@@ -47,31 +48,29 @@ customisability.
 However, such algorithms are often composed of multiple interchangeable
 modules that need to be tuned to the problem at hand to produce meaningful
 explanations [@sokol2019blimey].
-This paper introduces a collection of [hands-on training materials][github] --
-slides, video recordings and Jupyter Notebooks -- that guide through the process
-of building and evaluating bespoke modular surrogate explainers of tabular data.
+This paper introduces a collection of hands-on training materials --
+slides, video recordings and Jupyter Notebooks -- that provide guidance
+through the process of building and evaluating bespoke modular surrogate
+explainers of tabular data.
 These resources cover the three core building blocks of this technique
 introduced by the bLIMEy meta-algorithm: interpretable representation
 composition, data sampling and explanation generation [@sokol2019blimey].
 
-[github]: https://github.com/fat-forensics/Surrogates-Tutorial
-
 # Modular Surrogate Explainers #
 
-<!-- learning objectives -->
 The training materials introduce the concept of modular explainability
 algorithms using the example of surrogate explainers for tabular data.
 This separation of functionally independent building blocks allows us to
 consider the influence of each component, and their interdependence, on the
 robustness and faithfulness of the final explainer.
 To this end, we overview a collection of techniques to evaluate the quality
-of its modules and its overall effectiveness.
+of the modules and their overall effectiveness.
 Moreover, these metrics can guide the parameterisation of the entire
 explainability algorithm, providing an opportunity to tune it to the problem
 at hand.
 All of these insights demonstrate that while surrogate explainers are
 model-agnostic and post-hoc -- i.e., they work with any black box and
-can be retrofitted into pre-existing predictive models, making them a
+can be retrofitted into pre-existing predictive models, thus making them a
 popular choice for explaining black-box predictions [@ribeiro2016should] --
 using off-the-shelf explainability approaches may result in subpar
 performance for individual use cases.
@@ -80,7 +79,6 @@ that is suitable for a particular situation is a prerequisite for
 trustworthy and meaningful explainability of data-driven systems
 and their decisions.
 
-<!-- contents summary -->
 Prior to diving into the practicalities of composing surrogate explainers,
 the training materials introduce the concept of algorithmic explainability
 and discuss the fundamental ideas behind surrogates for text,
@@ -103,24 +101,23 @@ bLIMEy -- build LIME yourself [@sokol2019blimey] -- meta-algorithm:
 These learning modules show some of the interoperable algorithmic components
 available at each step, discuss their pros and cons for a range of applications,
 guide through their optimal selection strategies and propose suitable
-evaluation criteria -- see the figure below.
+evaluation criteria -- see Figure 1.
 In particular, interpretable representations are built with
 quartile discretisation and decision trees [@sokol2020towards];
 data are generated with Gaussian and mixup sampling
 [@zhang2018mixup; @sokol2019blimey]; and
 explanations are extracted from linear and tree-based
 surrogate models [@sokol2020limetree].
-Notably, these choices influence the type and quality of the resulting
-explanations produced for black-box predictions.
-Therefore, these hands-on materials illustrate how such atomic functional
-blocks behave in various scenarios and demonstrate how to use these
-components to configure robust explainers with well-known properties and
-failure modes based on first-hand observations and a collection of
-quantitative evaluation metrics and validation techniques.
+Notably, these choices determine the type, role and quality of the
+explanations composed for black-box predictions.
+Therefore, these hands-on materials illustrate how such interoperable
+algorithmic building blocks behave in various scenarios and demonstrate
+how to use these components to configure robust explainers with well-known
+properties and failure modes based on first-hand observations and a
+collection of quantitative evaluation metrics and validation techniques.
 
 ![Modularity of surrogate explainers, listing components specific to tabular data.](modular_surrogates.pdf){width=65%}
 
-<!-- instructional design -->
 The introduction to algorithmic explainability; the theoretical overview of
 surrogate explainers for text, image and tabular data; and the outline of
 `FAT Forensics` are presented in a collection of *slides* and
@@ -132,12 +129,11 @@ build robust surrogate explainers of an arbitrary black-box predictive model
 for their own tabular data set.
 The training resources are designed to appeal and be accessible to an audience
 with a wide range of backgrounds and experiences.
-Active participation in the hands-on part requires basic familiarity with
+Active participation in the practical part requires basic familiarity with
 Python programming and access to a computer connected to the Internet, which
 enables execution of the Jupyter Notebooks online without installing any
 software on a personal machine.
 
-<!-- experience of use in teaching and learning situations -->
 These training materials were used to deliver a hands-on tutorial -- of
 the same title -- at the 2020 European Conference on Machine Learning and
 Principles and Practice of Knowledge Discovery in Databases
@@ -154,11 +150,9 @@ website^[https://events.fat-forensics.org].
 
 # Statement of Need #
 
-<!-- how these contribute to computationally enabled teaching and learning
-     how they might be adopted by others -->
-The training materials introduce a novel learning paradigm for algorithmic
-explainability of data-driven predictive systems based on artificial
-intelligence and machine learning techniques.
+The training materials described by this paper introduce a novel learning
+paradigm for algorithmic explainability of data-driven predictive systems
+based on artificial intelligence and machine learning techniques.
 Instead of treating these tools as end-to-end, monolithic entities whose
 configuration is only facilitated through the parameters exposed by
 their developers, these educational resources look into their modularity to
@@ -167,7 +161,7 @@ By decomposing explainers into their core elements we can better understand
 their role and configure them for the application at hand.
 In this purview, such techniques are diagnostic tools that *only* become
 explainers when their properties and interpretation of their outputs
-are well understood.
+are well understood and designed accordingly.
 Therefore, to engender trust in data-driven predictive systems, the employed
 explainability approaches must be trustworthy themselves in
 the first place -- the learning objective underlying the interactive
