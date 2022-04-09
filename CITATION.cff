@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these training materials, please cite it as below."
+authors:
+- family-names: "Sokol"
+  given-names: "Kacper"
+  orcid: "https://orcid.org/0000-0002-9869-5896"
+- family-names: "Hepburn"
+  given-names: "Alexander"
+- family-names: "Santos-Rodriguez"
+  given-names: "Raul"
+  orcid: "https://orcid.org/0000-0001-9576-3905"
+- family-names: "Flach"
+  given-names: "Peter"
+  orcid: "https://orcid.org/0000-0001-6857-5810"
+title: "What and How of Machine Learning Transparency: Building Bespoke Explainability Tools with Interoperable Algorithmic Components"
+version: 2020-ecml-pkdd
+doi: 10.5281/zenodo.6395490
+date-released: 2022-03-30
+url: "https://github.com/fat-forensics/Surrogates-Tutorial"

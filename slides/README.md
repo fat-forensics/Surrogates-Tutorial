@@ -1,6 +1,7 @@
 # Slides (ECML-PKDD 2020) #
 
 Slides for the ECML-PKDD 2020 hands-on tutorial.
+You can view recordings of these presentations on [YouTube][yt].
 More details are available on
 <https://events.fat-forensics.org/2020_ecml-pkdd/#schedule-and-resources>.
 
@@ -24,3 +25,5 @@ More details are available on
 |:-------|:-----------|
 | [`3.1-notebooks.pdf`](3.1-notebooks.pdf) | *Introduction to the hands-on resources* and overview of the Jupyter Notebooks. |
 | [`3.3-summary.pdf`](3.3-summary.pdf) | *Summary and farewell.* |
+
+[yt]: https://www.youtube.com/playlist?list=PLgdhPOmeUNm0H2XTQECK3wabnDohZURLK

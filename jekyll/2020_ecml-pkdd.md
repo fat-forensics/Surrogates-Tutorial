@@ -9,7 +9,7 @@ notebooks: https://github.com/fat-forensics/Surrogates-Tutorial/tree/master/note
 slides: https://github.com/fat-forensics/Surrogates-Tutorial/tree/master/slides/
 recordings: https://www.youtube.com/playlist?list=PLgdhPOmeUNm0H2XTQECK3wabnDohZURLK
 
-doi: TODO
+doi: 10.5281/zenodo.6395490
 ---
 
 # What and How of Machine Learning Transparency
@@ -108,7 +108,11 @@ To reference this tutorial please use:
                    {B}uilding Bespoke Explainability Tools with
                    Interoperable Algorithmic Components },
   month        = sep,
-  year         = 2020
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {2020-ecml-pkdd},
+  doi          = {10.5281/zenodo.6395490},
+  url          = {https://doi.org/10.5281/zenodo.6395490}
 }
 ```
 
