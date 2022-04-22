@@ -10,6 +10,7 @@ slides: https://github.com/fat-forensics/Surrogates-Tutorial/tree/master/slides/
 recordings: https://www.youtube.com/playlist?list=PLgdhPOmeUNm0H2XTQECK3wabnDohZURLK
 
 doi: 10.5281/zenodo.6395490
+jose: d58625bd4c600da866522c879986b18f
 ---
 
 # What and How of Machine Learning Transparency
