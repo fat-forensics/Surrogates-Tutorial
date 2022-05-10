@@ -52,7 +52,7 @@ explanations [@sokol2019blimey].
 This paper introduces a collection of hands-on training materials --
 slides, video recordings and Jupyter Notebooks -- that provide guidance
 through the process of building and evaluating bespoke modular surrogate
-explainers of tabular data.
+explainers for tabular data.
 These resources cover the three core building blocks of this technique
 introduced by the bLIMEy meta-algorithm: interpretable representation
 composition, data sampling and explanation generation [@sokol2019blimey].
@@ -126,8 +126,8 @@ surrogate explainers for text, image and tabular data; and the outline of
 The hands-on materials are delivered with *Jupyter Notebooks* that interweave
 textual guidance, code examples and informative plots.
 All the insights learnt throughout the practical exercises enable the tutees to
-build robust surrogate explainers of an arbitrary black-box predictive model
-for their own tabular data set.
+build robust surrogate explainers for an arbitrary black-box predictive model
+created for their own tabular data set.
 The training resources are designed to appeal and be accessible to an audience
 with a wide range of backgrounds and experiences.
 Active participation in the practical part requires basic familiarity with
@@ -145,25 +145,34 @@ Moreover, they inspired a number of interactive sessions at various
 summer schools aimed at doctoral students in artificial intelligence and
 machine learning, as well as undergraduate lectures, academic
 presentations and invited talks.
-The slides, additional hands-on resources and video recordings of some of
+The slides, extra hands-on resources and video recordings of some of
 these events are available on the FAT Forensics Events
 website^[https://events.fat-forensics.org].
+The new teaching materials^[https://github.com/fat-forensics/resources]
+additionally cover surrogates for image data -- focusing on the influence of
+segmentation granularity and occlusion colour on the trustworthiness of the
+resulting explanations [@sokol2020towards] -- and touch upon other explainers
+such as *permutation importance* [@breiman2001random],
+*individual conditional expectation* [@goldstein2015peeking] and
+*partial dependence* [@friedman2001greedy].
+
 Notably, these sessions propelled the improvement, evolution and expansion of
-the training materials^[https://github.com/fat-forensics/resources].
+the training resources.
 In particular, the programming-focused exercises have been complemented by
 *no-code* Jupyter Notebooks that enable interactive experimentation with
-the explainers through intuitive Jupyter Widgets, thus allowing to better
+the explainers through intuitive *Jupyter Widgets*, thus allowing to better
 engage with the audience in a limited time.
 The same strategy has been employed for the slides -- by embedding interactive
 examples based on widgets -- to which end they have been
 built with RISE^[https://rise.readthedocs.io].
-These resources additionally cover surrogates for image data
-(focusing on the influence of segmentation granularity and occlusion colour
-on the trustworthiness of the resulting explanations [@sokol2020towards]) and
-touch upon other explainers such as
-*permutation importance* [@breiman2001random],
-*individual conditional expectation* [@goldstein2015peeking] and
-*partial dependence* [@friedman2001greedy].
+In hindsight, the teaching has become much more effective when the ubiquitous
+PDF slides and Jupyter Notebook programming exercises were replaced with and
+enriched by formats supporting seamless interaction (in our case through
+widgets).
+This exploration of alternative technologies for building training resources
+has also inspired a prototype of a new publishing workflow, where multiple
+artefacts such as online documents, slides and computational notebooks can be
+composed from a unified collection of source materials [@sokol2021you].
 
 # Statement of Need #
 
