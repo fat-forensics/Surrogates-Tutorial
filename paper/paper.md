@@ -46,7 +46,7 @@ to peer inside these black boxes and interpret their decisions.
 Many of these techniques are introduced as monolithic tools, giving the
 impression of one-size-fits-all and end-to-end algorithms with limited
 customisability.
-However, such algorithms are often composed of multiple interchangeable
+However, such approaches are often composed of multiple interchangeable
 modules that need to be tuned to the problem at hand to produce meaningful
 explanations [@sokol2019blimey].
 This paper introduces a collection of hands-on training materials --
@@ -81,8 +81,8 @@ trustworthy and meaningful explainability of data-driven systems
 and their decisions.
 
 Prior to diving into the practicalities of composing surrogate explainers,
-the training materials introduce the concept of algorithmic explainability
-and discuss the fundamental ideas behind surrogates for text,
+the training materials introduce the concept of algorithmic explainability of
+predictive models and discuss the fundamental ideas behind surrogates for text,
 image and tabular data.
 This theoretical overview is followed by a brief presentation of the software
 used for the hands-on modules;
@@ -126,8 +126,8 @@ surrogate explainers for text, image and tabular data; and the outline of
 The hands-on materials are delivered with *Jupyter Notebooks* that interweave
 textual guidance, code examples and informative plots.
 All the insights learnt throughout the practical exercises enable the tutees to
-build robust surrogate explainers for an arbitrary black-box predictive model
-created for their own tabular data set.
+create robust surrogate explainers for an arbitrary black-box predictive model
+built for their own tabular data set.
 The training resources are designed to appeal and be accessible to an audience
 with a wide range of backgrounds and experiences.
 Active participation in the practical part requires basic familiarity with
@@ -166,9 +166,9 @@ The same strategy has been employed for the slides -- by embedding interactive
 examples based on widgets -- to which end they have been
 built with RISE^[https://rise.readthedocs.io].
 In hindsight, the teaching has become much more effective when the ubiquitous
-PDF slides and Jupyter Notebook programming exercises were replaced with and
-enriched by formats supporting seamless interaction (in our case through
-widgets).
+PDF slides and Jupyter Notebook programming exercises were replaced with and/or
+enriched by formats supporting seamless interaction with the taught material
+(in our case achieved through widgets).
 This exploration of alternative technologies for building training resources
 has also inspired a prototype of a new publishing workflow, where multiple
 artefacts such as online documents, slides and computational notebooks can be
@@ -176,12 +176,12 @@ composed from a unified collection of source materials [@sokol2021you].
 
 # Statement of Need #
 
-The training materials described by this paper introduce a novel learning
+The training resources described by this paper introduce a novel learning
 paradigm for algorithmic explainability of data-driven predictive systems
 based on artificial intelligence and machine learning techniques.
 Instead of treating these tools as end-to-end, monolithic entities whose
 configuration is only facilitated through the parameters exposed by
-their developers, these educational resources look into their modularity to
+their developers, these educational materials look into their modularity to
 identify atomic and interoperable functional building blocks.
 By decomposing explainers into their core elements we can better understand
 their role and configure them for the application at hand.
