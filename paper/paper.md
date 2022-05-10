@@ -1,7 +1,8 @@
 ---
 title: |
   What and How of Machine Learning Transparency:
-  Building Bespoke Explainability Tools with Interoperable Algorithmic Components
+  Building Bespoke Explainability Tools with
+  Interoperable Algorithmic Components
 tags:
   - Transparency
   - Explainability
@@ -147,6 +148,22 @@ presentations and invited talks.
 The slides, additional hands-on resources and video recordings of some of
 these events are available on the FAT Forensics Events
 website^[https://events.fat-forensics.org].
+Notably, these sessions propelled the improvement, evolution and expansion of
+the training materials^[https://github.com/fat-forensics/resources].
+In particular, the programming-focused exercises have been complemented by
+*no-code* Jupyter Notebooks that enable interactive experimentation with
+the explainers through intuitive Jupyter Widgets, thus allowing to better
+engage with the audience in a limited time.
+The same strategy has been employed for the slides -- by embedding interactive
+examples based on widgets -- to which end they have been
+built with RISE^[https://rise.readthedocs.io].
+These resources additionally cover surrogates for image data
+(focusing on the influence of segmentation granularity and occlusion colour
+on the trustworthiness of the resulting explanations [@sokol2020towards]) and
+touch upon other explainers such as
+*permutation importance* [@breiman2001random],
+*individual conditional expectation* [@goldstein2015peeking] and
+*partial dependence* [@friedman2001greedy].
 
 # Statement of Need #
 
