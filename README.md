@@ -2,11 +2,10 @@
 [![Tests Status](https://github.com/fat-forensics/Surrogates-Tutorial/actions/workflows/tests.yml/badge.svg)](https://github.com/fat-forensics/Surrogates-Tutorial/actions/workflows/tests.yml)
 [![Licence](https://img.shields.io/badge/licence-CC%20BY--NC--SA%204.0-red)](LICENCE)  
 [![ZENODO DOI](https://zenodo.org/badge/472186940.svg)](https://zenodo.org/badge/latestdoi/472186940)
+[![JOSE DOI](https://jose.theoj.org/papers/d58625bd4c600da866522c879986b18f/status.svg)](https://jose.theoj.org/papers/d58625bd4c600da866522c879986b18f)
 [![GitHub Release](https://img.shields.io/github/v/release/fat-forensics/Surrogates-Tutorial?display_name=tag&logo=github)](https://github.com/fat-forensics/Surrogates-Tutorial/releases/latest)  
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fat-forensics/Surrogates-Tutorial/master?filepath=notebooks)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fat-forensics/Surrogates-Tutorial/blob/master/)
-
-<!-- [![JOSE DOI](https://jose.theoj.org/papers/TODO/TODO/status.svg)](https://doi.org/TODO/TODO) -->
 
 # What and How of Machine Learning Transparency #
 ## Building Bespoke Explainability Tools with Interoperable Algorithmic Components ##
