@@ -1,7 +1,8 @@
 ---
 title: |
   What and How of Machine Learning Transparency:
-  Building Bespoke Explainability Tools with Interoperable Algorithmic Components
+  Building Bespoke Explainability Tools with
+  Interoperable Algorithmic Components
 tags:
   - Transparency
   - Explainability
@@ -45,13 +46,13 @@ to peer inside these black boxes and interpret their decisions.
 Many of these techniques are introduced as monolithic tools, giving the
 impression of one-size-fits-all and end-to-end algorithms with limited
 customisability.
-However, such algorithms are often composed of multiple interchangeable
+However, such approaches are often composed of multiple interchangeable
 modules that need to be tuned to the problem at hand to produce meaningful
 explanations [@sokol2019blimey].
 This paper introduces a collection of hands-on training materials --
 slides, video recordings and Jupyter Notebooks -- that provide guidance
 through the process of building and evaluating bespoke modular surrogate
-explainers of tabular data.
+explainers for tabular data.
 These resources cover the three core building blocks of this technique
 introduced by the bLIMEy meta-algorithm: interpretable representation
 composition, data sampling and explanation generation [@sokol2019blimey].
@@ -73,15 +74,15 @@ model-agnostic and post-hoc -- i.e., they work with any black box and
 can be retrofitted into pre-existing predictive models, thus making them a
 popular choice for explaining black-box predictions [@ribeiro2016should] --
 using off-the-shelf explainability approaches may result in subpar
-performance for individual use cases.
+performance for individual use cases [@rudin2019stop].
 Therefore, understanding how to build a bespoke surrogate explainer
 that is suitable for a particular situation is a prerequisite for
 trustworthy and meaningful explainability of data-driven systems
 and their decisions.
 
 Prior to diving into the practicalities of composing surrogate explainers,
-the training materials introduce the concept of algorithmic explainability
-and discuss the fundamental ideas behind surrogates for text,
+the training materials introduce the concept of algorithmic explainability of
+predictive models and discuss the fundamental ideas behind surrogates for text,
 image and tabular data.
 This theoretical overview is followed by a brief presentation of the software
 used for the hands-on modules;
@@ -109,7 +110,7 @@ data are generated with Gaussian and mixup sampling
 explanations are extracted from linear and tree-based
 surrogate models [@sokol2020limetree].
 Notably, these choices determine the type, role and quality of the
-explanations composed for black-box predictions.
+resulting explanations composed for black-box predictions.
 Therefore, these hands-on materials illustrate how such interoperable
 algorithmic building blocks behave in various scenarios and demonstrate
 how to use these components to configure robust explainers with well-known
@@ -125,8 +126,8 @@ surrogate explainers for text, image and tabular data; and the outline of
 The hands-on materials are delivered with *Jupyter Notebooks* that interweave
 textual guidance, code examples and informative plots.
 All the insights learnt throughout the practical exercises enable the tutees to
-build robust surrogate explainers of an arbitrary black-box predictive model
-for their own tabular data set.
+create robust surrogate explainers for an arbitrary black-box predictive model
+built for their own tabular data set.
 The training resources are designed to appeal and be accessible to an audience
 with a wide range of backgrounds and experiences.
 Active participation in the practical part requires basic familiarity with
@@ -144,18 +145,43 @@ Moreover, they inspired a number of interactive sessions at various
 summer schools aimed at doctoral students in artificial intelligence and
 machine learning, as well as undergraduate lectures, academic
 presentations and invited talks.
-The slides, additional hands-on resources and video recordings of some of
+The slides, extra hands-on resources and video recordings of some of
 these events are available on the FAT Forensics Events
 website^[https://events.fat-forensics.org].
+The new teaching materials^[https://github.com/fat-forensics/resources]
+additionally cover surrogates for image data -- focusing on the influence of
+segmentation granularity and occlusion colour on the trustworthiness of the
+resulting explanations [@sokol2020towards] -- and touch upon other explainers
+such as *permutation importance* [@breiman2001random],
+*individual conditional expectation* [@goldstein2015peeking] and
+*partial dependence* [@friedman2001greedy].
+
+Notably, these sessions propelled the improvement, evolution and expansion of
+the training resources.
+In particular, the programming-focused exercises have been complemented by
+*no-code* Jupyter Notebooks that enable interactive experimentation with
+the explainers through intuitive *Jupyter Widgets*, thus allowing to better
+engage with the audience in a limited time.
+The same strategy has been employed for the slides -- by embedding interactive
+examples based on widgets -- to which end they have been
+built with RISE^[https://rise.readthedocs.io].
+In hindsight, the teaching has become much more effective when the ubiquitous
+PDF slides and Jupyter Notebook programming exercises were replaced with and/or
+enriched by formats supporting seamless interaction with the taught material
+(in our case achieved through widgets).
+This exploration of alternative technologies for building training resources
+has also inspired a prototype of a new publishing workflow, where multiple
+artefacts such as online documents, slides and computational notebooks can be
+composed from a unified collection of source materials [@sokol2021you].
 
 # Statement of Need #
 
-The training materials described by this paper introduce a novel learning
+The training resources described by this paper introduce a novel learning
 paradigm for algorithmic explainability of data-driven predictive systems
 based on artificial intelligence and machine learning techniques.
 Instead of treating these tools as end-to-end, monolithic entities whose
 configuration is only facilitated through the parameters exposed by
-their developers, these educational resources look into their modularity to
+their developers, these educational materials look into their modularity to
 identify atomic and interoperable functional building blocks.
 By decomposing explainers into their core elements we can better understand
 their role and configure them for the application at hand.
