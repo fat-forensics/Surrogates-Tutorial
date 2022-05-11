@@ -74,7 +74,7 @@ model-agnostic and post-hoc -- i.e., they work with any black box and
 can be retrofitted into pre-existing predictive models, thus making them a
 popular choice for explaining black-box predictions [@ribeiro2016should] --
 using off-the-shelf explainability approaches may result in subpar
-performance for individual use cases.
+performance for individual use cases [@rudin2019stop].
 Therefore, understanding how to build a bespoke surrogate explainer
 that is suitable for a particular situation is a prerequisite for
 trustworthy and meaningful explainability of data-driven systems
@@ -110,7 +110,7 @@ data are generated with Gaussian and mixup sampling
 explanations are extracted from linear and tree-based
 surrogate models [@sokol2020limetree].
 Notably, these choices determine the type, role and quality of the
-explanations composed for black-box predictions.
+resulting explanations composed for black-box predictions.
 Therefore, these hands-on materials illustrate how such interoperable
 algorithmic building blocks behave in various scenarios and demonstrate
 how to use these components to configure robust explainers with well-known
