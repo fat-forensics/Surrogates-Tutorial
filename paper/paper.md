@@ -192,11 +192,28 @@ Therefore, to engender trust in data-driven predictive systems, the employed
 explainability approaches must be trustworthy themselves in
 the first place -- the learning objective underlying the interactive
 coding exercises.
-Notably, the modularity and diversity of these training materials -- slides,
+
+The modularity and diversity of these training materials -- slides,
 video recordings and Jupyter Notebooks -- allow them to be adapted or
 directly incorporated into a course on explainable artificial intelligence
 and interpretable machine learning, or form the basis of a range of
 educational resources such as practical training sessions and conference
 tutorials.
+The module can be taught as is -- reusing the slides and computational
+notebooks -- with either bespoke tuition or by following the prerecorded
+videos.
+Alternatively, the narration, figures and results presented within the
+notebooks may be shaped into tailor-made teaching materials.
+The hands-on resources can also become a standalone case study supplementing
+relevant explainability and interpretability courses.
+The comprehensive and in-detail presentation of the topic, covering both the
+underlying theory and practical aspects, is suitable for and accessible to
+undergraduate and postgraduate students, researchers as well as engineers and
+data scientists interested in the subject.
+This module fills a gap in educational materials dealing with
+artificial intelligence and machine learning transparency by
+focusing on understanding of the inner workings of these techniques and
+the influence of their building blocks on the robustness, veracity and
+comprehensibility of explanatory insights into black-box predictive models.
 
 # References #
