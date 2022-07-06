@@ -22,6 +22,7 @@ The following resources are available:
 * Video Recordings -- [YouTube][yt] playlist.
 
 See <https://events.fat-forensics.org/2020_ecml-pkdd> for more details.
+The [CONTRIBUTING.md](CONTRIBUTING.md) file provides contribution guidelines.
 
 To reference these training materials please use:
 ```bibtex
@@ -41,5 +42,6 @@ To reference these training materials please use:
   url          = {https://doi.org/10.5281/zenodo.6395490}
 }
 ```
+or refer to the [CITATION.cff](CITATION.cff) file.
 
 [yt]: https://www.youtube.com/playlist?list=PLgdhPOmeUNm0H2XTQECK3wabnDohZURLK
