@@ -39,14 +39,14 @@ bibliography: paper.bib
 
 Explainability techniques for data-driven predictive models based on
 artificial intelligence and machine learning algorithms allow us to
-better understand the operation of such systems and hold them
+better understand the operation of such systems and help to hold them
 accountable [@sokol2021explainability].
-New transparency approaches are therefore developed at breakneck speed
+New transparency approaches are developed at breakneck speed
 to help us peek inside these black boxes and interpret their decisions.
 Many of these techniques are introduced as monolithic tools, giving the
 impression of one-size-fits-all and end-to-end algorithms with limited
 customisability.
-However, such approaches are often composed of multiple interchangeable
+Nevertheless, such approaches are often composed of multiple interchangeable
 modules that need to be tuned to the problem at hand to produce meaningful
 explanations [@sokol2019blimey].
 This paper introduces a collection of hands-on training materials --
@@ -64,9 +64,9 @@ algorithms using the example of surrogate explainers for tabular data.
 This separation of functionally independent building blocks allows us to
 consider the influence of each component, and their interdependence, on the
 robustness and faithfulness of the final explainer.
-To this end, we overview a collection of techniques to evaluate the quality
+To this end, we review a collection of techniques to evaluate the quality
 of the modules and their overall effectiveness.
-Moreover, these metrics can guide the parameterisation of the entire
+These metrics can guide the parameterisation of the entire
 explainability algorithm, providing an opportunity to tune it to the problem
 at hand.
 All of these insights demonstrate that while surrogate explainers are
@@ -99,7 +99,7 @@ bLIMEy -- build LIME yourself [@sokol2019blimey] -- meta-algorithm:
 * explanation generation (interpretable feature selection,
   data sample weighting, surrogate model training and explanation extraction).
 
-These learning modules show some of the interoperable algorithmic components
+These learning modules review some of the interoperable algorithmic components
 available at each step, discuss their pros and cons for a range of applications,
 guide through their optimal selection strategies and propose suitable
 evaluation criteria -- see Figure 1.
@@ -165,7 +165,7 @@ engage with the audience in a limited time.
 The same strategy has been employed for the slides -- by embedding interactive
 examples based on widgets -- to which end they have been
 built with RISE^[https://rise.readthedocs.io/].
-In hindsight, the teaching has become much more effective when the ubiquitous
+From our experience, the teaching became much more effective when the ubiquitous
 PDF slides and Jupyter Notebook programming exercises were replaced with and/or
 enriched by formats supporting seamless interaction with the taught material
 (in our case achieved through widgets).
@@ -185,7 +185,7 @@ their developers, these educational materials look into their modularity to
 identify atomic and interoperable functional building blocks.
 By decomposing explainers into their core elements we can better understand
 their role and configure them for the application at hand.
-In this purview, such techniques are diagnostic tools that *only* become
+Within this purview, such techniques are diagnostic tools that *only* become
 explainers when their properties and interpretation of their outputs
 are well understood and designed accordingly.
 Therefore, to engender trust in data-driven predictive systems, the employed
