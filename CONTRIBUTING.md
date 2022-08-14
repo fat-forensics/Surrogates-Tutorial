@@ -44,6 +44,14 @@ Non-computational resources supporting this training module are:
 
 See the dedicated [webpage][events_page] for more details.
 
+---
+
+[![Text Licence](https://img.shields.io/badge/licence--text-CC%20BY--NC--SA%204.0-red)](LICENCE)
+[![Code Licence](https://img.shields.io/badge/licence--code-new%20BSD-red)](LICENCE-code)
+
+Note that code is licenced under *BSD 3-Clause*, and
+text is licenced under *CC BY-NC-SA 4.0*.
+
 ## Contribution Workflow ##
 
 [![Open GitHub Issue](https://img.shields.io/badge/github-report%20issue-blue.svg?logo=github)][gh_issue]
