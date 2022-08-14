@@ -16,22 +16,24 @@ tags:
 authors:
   - name: Kacper Sokol
     orcid: 0000-0002-9869-5896
-    affiliation: 1
+    affiliation: "1, 2"
   - name: Alexander Hepburn
     orcid: 0000-0002-2674-1478
-    affiliation: 2
+    affiliation: 1
   - name: Raul Santos-Rodriguez
     orcid: 0000-0001-9576-3905
-    affiliation: 2
+    affiliation: 1
   - name: Peter Flach
     orcid: 0000-0001-6857-5810
     affiliation: 1
 affiliations:
-  - name: Department of Computer Science, University of Bristol
+  - name: Intelligent Systems Laboratory, University of Bristol, United Kingdom
     index: 1
-  - name: Department of Engineering Mathematics, University of Bristol
+  - name: |
+      ARC Centre of Excellence for Automated Decision-Making and Society,
+      RMIT University, Australia
     index: 2
-date: 01 April 2022
+date: 01 September 2022
 bibliography: paper.bib
 ---
 
@@ -42,7 +44,7 @@ artificial intelligence and machine learning algorithms allow us to
 better understand the operation of such systems and help to hold them
 accountable [@sokol2021explainability].
 New transparency approaches are developed at breakneck speed
-to help us peek inside these black boxes and interpret their decisions.
+to enable us to peek inside these black boxes and interpret their decisions.
 Many of these techniques are introduced as monolithic tools, giving the
 impression of one-size-fits-all and end-to-end algorithms with limited
 customisability.
@@ -53,9 +55,9 @@ This paper introduces a collection of hands-on training materials --
 slides, video recordings and Jupyter Notebooks -- that provide guidance
 through the process of building and evaluating bespoke modular surrogate
 explainers for tabular data.
-These resources cover the three core building blocks of this technique
-introduced by the bLIMEy meta-algorithm: interpretable representation
-composition, data sampling and explanation generation [@sokol2019blimey].
+These resources cover the three core building blocks of this technique:
+interpretable representation composition, data sampling and
+explanation generation [@sokol2019blimey].
 
 # Modular Surrogate Explainers #
 
@@ -66,9 +68,8 @@ consider the influence of each component, and their interdependence, on the
 robustness and faithfulness of the final explainer.
 To this end, we review a collection of techniques to evaluate the quality
 of the modules and their overall effectiveness.
-These metrics can guide the parameterisation of the entire
-explainability algorithm, providing an opportunity to tune it to the problem
-at hand.
+These metrics can guide the parameterisation of the entire explainability
+algorithm, providing an opportunity to tune it to the problem at hand.
 All of these insights demonstrate that while surrogate explainers are
 model-agnostic and post-hoc -- i.e., they work with any black box and
 can be retrofitted into pre-existing predictive models, thus making them a
@@ -192,6 +193,20 @@ Therefore, to engender trust in data-driven predictive systems, the employed
 explainability approaches must be trustworthy themselves in
 the first place -- the learning objective underlying the interactive
 coding exercises.
+The training materials achieve these goals by supporting the following learning
+outcomes specifically for surrogate explainers (which were chosen because of
+their flexibility and popularity):
+
+* identify self-contained algorithmic components of the explainer and
+  understand their functions;
+* connect these building blocks to the explainability requirements unique to
+  the investigated predictive system;
+* select appropriate algorithmic components and tune them to
+  the problem at hand;
+* evaluate these building blocks (in this specific context) independently and
+  when joined together to form the final explainer; and
+* interpret the resulting explanations in view of the uncovered properties and
+  limitations of the bespoke explainability algorithm.
 
 The modularity and diversity of these training materials -- slides,
 video recordings and Jupyter Notebooks -- allow them to be adapted or
@@ -215,5 +230,15 @@ artificial intelligence and machine learning transparency by
 focusing on understanding of the inner workings of these techniques and
 the influence of their building blocks on the robustness, veracity and
 comprehensibility of explanatory insights into black-box predictive models.
+
+# Acknowledgements #
+
+This work was partially supported by TAILOR
+(Trustworthy AI through Integrating Learning, Optimisation and Reasoning),
+a project funded by EU Horizon 2020 research and innovation programme
+under GA No 952215; and
+the ARC Centre of Excellence for Automated Decision-Making and Society,
+funded by the Australian Government through the Australian Research Council
+(project number CE200100005).
 
 # References #
