@@ -43,8 +43,8 @@ Explainability techniques for data-driven predictive models based on
 artificial intelligence and machine learning algorithms allow us to
 better understand the operation of such systems and help to hold them
 accountable [@sokol2021explainability].
-New transparency approaches are developed at breakneck speed
-to enable us to peek inside these black boxes and interpret their decisions.
+New transparency approaches are developed at breakneck speed,
+enabling us to peek inside these black boxes and interpret their decisions.
 Many of these techniques are introduced as monolithic tools, giving the
 impression of one-size-fits-all and end-to-end algorithms with limited
 customisability.
@@ -183,7 +183,7 @@ based on artificial intelligence and machine learning techniques.
 Instead of treating these tools as end-to-end, monolithic entities whose
 configuration is only facilitated through the parameters exposed by
 their developers, these educational materials look into their modularity to
-identify atomic and interoperable functional building blocks.
+identify atomic and functionally interoperable building blocks.
 By decomposing explainers into their core elements we can better understand
 their role and configure them for the application at hand.
 Within this purview, such techniques are diagnostic tools that *only* become
