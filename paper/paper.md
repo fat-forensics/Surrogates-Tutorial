@@ -90,7 +90,7 @@ used for the hands-on modules;
 `FAT Forensics`^[https://fat-forensics.org/] is an open source Python package
 designed for inspecting selected fairness, accountability and *transparency*
 aspects of data (and their features), *models* and *predictions*
-[@sokol2019fatf; @sokol2020fatf].
+[@sokol2020fatf; @sokol2022fatf].
 Having covered the basics, the practical coding resources focus on the three
 building blocks of surrogate explainers for tabular data identified by the
 bLIMEy -- build LIME yourself [@sokol2019blimey] -- meta-algorithm:
@@ -236,7 +236,8 @@ comprehensibility of explanatory insights into black-box predictive models.
 This work was partially supported by TAILOR
 (Trustworthy AI through Integrating Learning, Optimisation and Reasoning),
 a project funded by EU Horizon 2020 research and innovation programme
-under GA No 952215; and
+under GA No 952215;
+the UKRI Turing AI Fellowship EP/V024817/1; and
 the ARC Centre of Excellence for Automated Decision-Making and Society,
 funded by the Australian Government through the Australian Research Council
 (project number CE200100005).
