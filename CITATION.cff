@@ -18,3 +18,23 @@ version: 2020-ecml-pkdd
 doi: 10.5281/zenodo.6395490
 date-released: 2022-03-30
 url: "https://github.com/fat-forensics/Surrogates-Tutorial"
+preferred-citation:
+  type: article
+  title: "What and How of Machine Learning Transparency: Building Bespoke Explainability Tools with Interoperable Algorithmic Components"
+  journal: "arXiv preprint arXiv:2209.03813"
+  authors:
+  - family-names: "Sokol"
+    given-names: "Kacper"
+    orcid: "https://orcid.org/0000-0002-9869-5896"
+  - family-names: "Hepburn"
+    given-names: "Alexander"
+    orcid: "https://orcid.org/0000-0002-2674-1478"
+  - family-names: "Santos-Rodriguez"
+    given-names: "Raul"
+    orcid: "https://orcid.org/0000-0001-9576-3905"
+  - family-names: "Flach"
+    given-names: "Peter"
+    orcid: "https://orcid.org/0000-0001-6857-5810"
+  year: 2022
+  doi: 10.48550/arXiv.2209.03813
+  url: "https://events.fat-forensics.org/2020_ecml-pkdd"

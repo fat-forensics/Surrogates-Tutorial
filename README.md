@@ -1,12 +1,13 @@
-[![Read More](https://img.shields.io/badge/read-more-blue)](https://events.fat-forensics.org/2020_ecml-pkdd)
-[![Text Licence](https://img.shields.io/badge/licence--text-CC%20BY--NC--SA%204.0-red)](LICENCE)
-[![Code Licence](https://img.shields.io/badge/licence--code-new%20BSD-red)](LICENCE-code)  
+[![Read More](https://img.shields.io/badge/read-more-blue)](https://events.fat-forensics.org/2020_ecml-pkdd)  
 [![JOSE DOI](https://jose.theoj.org/papers/d58625bd4c600da866522c879986b18f/status.svg)](https://jose.theoj.org/papers/d58625bd4c600da866522c879986b18f)
-[![ZENODO DOI](https://zenodo.org/badge/472186940.svg)](https://zenodo.org/badge/latestdoi/472186940)
-[![GitHub Release](https://img.shields.io/github/v/release/fat-forensics/Surrogates-Tutorial?display_name=tag&logo=github)](https://github.com/fat-forensics/Surrogates-Tutorial/releases/latest)  
-[![Tests Status](https://github.com/fat-forensics/Surrogates-Tutorial/actions/workflows/tests.yml/badge.svg)](https://github.com/fat-forensics/Surrogates-Tutorial/actions/workflows/tests.yml)  
+[![arXiv DOI](https://img.shields.io/badge/arXiv-2209.03813-red.svg)](https://arxiv.org/abs/2209.03813)
+[![ZENODO DOI](https://zenodo.org/badge/472186940.svg)](https://zenodo.org/badge/latestdoi/472186940)  
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fat-forensics/Surrogates-Tutorial/master?filepath=notebooks)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fat-forensics/Surrogates-Tutorial/blob/master/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fat-forensics/Surrogates-Tutorial/blob/master/)  
+[![GitHub Release](https://img.shields.io/github/v/release/fat-forensics/Surrogates-Tutorial?display_name=tag&logo=github)](https://github.com/fat-forensics/Surrogates-Tutorial/releases/latest)
+[![Tests Status](https://github.com/fat-forensics/Surrogates-Tutorial/actions/workflows/tests.yml/badge.svg)](https://github.com/fat-forensics/Surrogates-Tutorial/actions/workflows/tests.yml)  
+[![Text Licence](https://img.shields.io/badge/licence--text-CC%20BY--NC--SA%204.0-red)](LICENCE)
+[![Code Licence](https://img.shields.io/badge/licence--code-new%20BSD-red)](LICENCE-code)
 
 # What and How of Machine Learning Transparency #
 ## Building Bespoke Explainability Tools with Interoperable Algorithmic Components ##
@@ -68,20 +69,15 @@ text is covered by *[CC BY-NC-SA 4.0](LICENCE)*.
 The [CONTRIBUTING.md](CONTRIBUTING.md) file provides contribution guidelines.
 To reference this repository and the training materials it provides please use:
 ```bibtex
-@misc{sokol2020what,
-  author       = {Sokol, Kacper and
-                  Hepburn, Alexander and
-                  Santos-Rodriguez, Raul and
-                  Flach, Peter},
-  title        = {{W}hat and How of Machine Learning Transparency:
-                  {B}uilding Bespoke Explainability Tools with
-                  Interoperable Algorithmic Components},
-  month        = sep,
-  year         = 2020,
-  publisher    = {Zenodo},
-  version      = {2020-ecml-pkdd},
-  doi          = {10.5281/zenodo.6395490},
-  url          = {https://doi.org/10.5281/zenodo.6395490}
+@article{sokol2022what,
+  title={What and how of machine learning transparency:
+         {B}uilding bespoke explainability tools with interoperable
+         algorithmic components},
+  author={Sokol, Kacper and Hepburn, Alexander and
+          Santos-Rodriguez, Raul and Flach, Peter},
+  journal={arXiv preprint arXiv:2209.03813},
+  year={2022},
+  doi={10.48550/arXiv.2209.03813}
 }
 ```
 or refer to the [CITATION.cff](CITATION.cff) file.

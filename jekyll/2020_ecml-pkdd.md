@@ -10,6 +10,7 @@ slides: https://github.com/fat-forensics/Surrogates-Tutorial/tree/master/slides/
 recordings: https://www.youtube.com/playlist?list=PLgdhPOmeUNm0H2XTQECK3wabnDohZURLK
 
 doi: 10.5281/zenodo.6395490
+arxiv: 2209.03813
 jose: d58625bd4c600da866522c879986b18f
 ---
 
@@ -100,20 +101,15 @@ predictions.
 ## Citation ##
 To reference this tutorial please use:
 ```bibtex
-@misc{sokol2020what,
-  author       = { Sokol, Kacper and
-                   Hepburn, Alexander and
-                   Santos-Rodriguez, Raul and
-                   Flach, Peter },
-  title        = { {W}hat and How of Machine Learning Transparency:
-                   {B}uilding Bespoke Explainability Tools with
-                   Interoperable Algorithmic Components },
-  month        = sep,
-  year         = 2020,
-  publisher    = {Zenodo},
-  version      = {2020-ecml-pkdd},
-  doi          = {10.5281/zenodo.6395490},
-  url          = {https://doi.org/10.5281/zenodo.6395490}
+@article{sokol2022what,
+  title={What and how of machine learning transparency:
+         {B}uilding bespoke explainability tools with interoperable
+         algorithmic components},
+  author={Sokol, Kacper and Hepburn, Alexander and
+          Santos-Rodriguez, Raul and Flach, Peter},
+  journal={arXiv preprint arXiv:2209.03813},
+  year={2022},
+  doi={10.48550/arXiv.2209.03813}
 }
 ```
 
