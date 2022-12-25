@@ -1,5 +1,5 @@
 [![Read More](https://img.shields.io/badge/read-more-blue)](https://events.fat-forensics.org/2020_ecml-pkdd)  
-[![JOSE DOI](https://jose.theoj.org/papers/d58625bd4c600da866522c879986b18f/status.svg)](https://jose.theoj.org/papers/d58625bd4c600da866522c879986b18f)
+[![JOSE DOI](https://jose.theoj.org/papers/10.21105/jose.00175/status.svg)](https://jose.theoj.org/papers/10.21105/jose.00175)
 [![arXiv DOI](https://img.shields.io/badge/arXiv-2209.03813-red.svg)](https://arxiv.org/abs/2209.03813)
 [![ZENODO DOI](https://zenodo.org/badge/472186940.svg)](https://zenodo.org/badge/latestdoi/472186940)  
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fat-forensics/Surrogates-Tutorial/master?filepath=notebooks)
@@ -70,14 +70,19 @@ The [CONTRIBUTING.md](CONTRIBUTING.md) file provides contribution guidelines.
 To reference this repository and the training materials it provides please use:
 ```bibtex
 @article{sokol2022what,
-  title={What and how of machine learning transparency:
-         {B}uilding bespoke explainability tools with interoperable
-         algorithmic components},
+  title={What and How of Machine Learning Transparency:
+         {Building} Bespoke Explainability Tools with Interoperable
+         Algorithmic Components},
   author={Sokol, Kacper and Hepburn, Alexander and
           Santos-Rodriguez, Raul and Flach, Peter},
-  journal={arXiv preprint arXiv:2209.03813},
+  journal={Journal of Open Source Education},
+  volume={5},
+  number={58},
+  pages={175},
+  publisher={The Open Journal},
   year={2022},
-  doi={10.48550/arXiv.2209.03813}
+  doi={10.21105/jose.00175},
+  url={https://events.fat-forensics.org/2020_ecml-pkdd}
 }
 ```
 or refer to the [CITATION.cff](CITATION.cff) file.
@@ -86,6 +91,6 @@ or refer to the [CITATION.cff](CITATION.cff) file.
 [tut]: https://events.fat-forensics.org/2020_ecml-pkdd
 [binder]: https://mybinder.org/v2/gh/fat-forensics/Surrogates-Tutorial/master?filepath=notebooks
 [colab]: https://colab.research.google.com/github/fat-forensics/Surrogates-Tutorial/blob/master/
-[jose]: https://jose.theoj.org/papers/d58625bd4c600da866522c879986b18f
+[jose]: https://jose.theoj.org/papers/10.21105/jose.00175
 [^1]: Sokol, K., & Flach, P. (2021). *Explainability is in the mind of the beholder: Establishing the foundations of explainable artificial intelligence*. arXiv Preprint arXiv:2112.14466. <https://doi.org/10.48550/arXiv.2112.14466>
 [^2]: Sokol, K., Hepburn, A., Santos-Rodriguez, R., & Flach, P. (2019). *bLIMEy: Surrogate prediction explanations beyond LIME*. Workshop on Human-Centric Machine Learning (HCML 2019) at the 33rd Conference on Neural Information Processing Systems (NeurIPS). <https://doi.org/10.48550/arXiv.1910.13016>

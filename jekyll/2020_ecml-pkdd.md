@@ -11,7 +11,7 @@ recordings: https://www.youtube.com/playlist?list=PLgdhPOmeUNm0H2XTQECK3wabnDohZ
 
 doi: 10.5281/zenodo.6395490
 arxiv: 2209.03813
-jose: d58625bd4c600da866522c879986b18f
+jose: 10.21105/jose.00175
 ---
 
 # What and How of Machine Learning Transparency
@@ -102,14 +102,19 @@ predictions.
 To reference this tutorial please use:
 ```bibtex
 @article{sokol2022what,
-  title={What and how of machine learning transparency:
-         {B}uilding bespoke explainability tools with interoperable
-         algorithmic components},
+  title={What and How of Machine Learning Transparency:
+         {Building} Bespoke Explainability Tools with Interoperable
+         Algorithmic Components},
   author={Sokol, Kacper and Hepburn, Alexander and
           Santos-Rodriguez, Raul and Flach, Peter},
-  journal={arXiv preprint arXiv:2209.03813},
+  journal={Journal of Open Source Education},
+  volume={5},
+  number={58},
+  pages={175},
+  publisher={The Open Journal},
   year={2022},
-  doi={10.48550/arXiv.2209.03813}
+  doi={10.21105/jose.00175},
+  url={https://events.fat-forensics.org/2020_ecml-pkdd}
 }
 ```
 

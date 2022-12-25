@@ -14,14 +14,17 @@ authors:
   given-names: "Peter"
   orcid: "https://orcid.org/0000-0001-6857-5810"
 title: "What and How of Machine Learning Transparency: Building Bespoke Explainability Tools with Interoperable Algorithmic Components"
-version: 2020-ecml-pkdd
-doi: 10.5281/zenodo.6395490
-date-released: 2022-03-30
+version: 1.0
+doi: 10.21105/jose.00175
+date-released: 2022-12-06
 url: "https://github.com/fat-forensics/Surrogates-Tutorial"
 preferred-citation:
   type: article
   title: "What and How of Machine Learning Transparency: Building Bespoke Explainability Tools with Interoperable Algorithmic Components"
-  journal: "arXiv preprint arXiv:2209.03813"
+  journal: "Journal of Open Source Education"
+  volume: 5
+  number: "58"
+  pages: 175
   authors:
   - family-names: "Sokol"
     given-names: "Kacper"
@@ -36,5 +39,5 @@ preferred-citation:
     given-names: "Peter"
     orcid: "https://orcid.org/0000-0001-6857-5810"
   year: 2022
-  doi: 10.48550/arXiv.2209.03813
+  doi: 10.21105/jose.00175
   url: "https://events.fat-forensics.org/2020_ecml-pkdd"
